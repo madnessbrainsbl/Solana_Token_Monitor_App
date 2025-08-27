@@ -1,0 +1,13 @@
+<Window x:Class="TokenMonitorApp.KeyInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Введите ключ" Height="160" Width="400">
+    <StackPanel Margin="10">
+        <TextBlock Text="Ключ доступа"/>
+        <PasswordBox x:Name="keyBox"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" IsDefault="True" Width="100" Click="Ok_Click"/>
+            <Button Content="Отмена" IsCancel="True" Width="100"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

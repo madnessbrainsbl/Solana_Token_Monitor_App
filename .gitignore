@@ -1,0 +1,84 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+*.tlog
+*.ilk
+*.tmp
+*.lck
+*.nupkg
+*.snupkg
+*.vsix
+*.Receipt
+
+# Visual Studio
+.vs/
+*.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+project.lock.json
+packages/
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+.nuget/
+*.nupkg
+
+# MSBuild
+*.Build.Caches
+
+# Test
+TestResult*/
+*.coverage*
+*.trx
+
+# WPF design-time
+*.g.i.cs
+*.g.cs
+*.Designer.cs
+
+# Auto-generated
+*.AssemblyInfo.cs
+*_wpftmp.csproj
+*_wpftmp.AssemblyInfo.cs
+*_wpftmp*
+
+# Publish artifacts
+publish/
+artifacts/
+
+# User-specific
+*.rsuser
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App data (runtime-generated)
+# Do not commit local encrypted keys and settings stored under AppData
+# (these are not in repo, but listed for clarity)
+# %APPDATA%/TokenMonitorApp/
+
+# Logs
+logs/
+*.log
+
+# Images cache
+*.png.cache
